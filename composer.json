@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "simple-bus/message-bus": "dev-master",
+        "simple-bus/message-bus": "~1.0@dev",
         "beberlei/assert": "~2.0"
     },
     "require-dev": {
@@ -26,10 +26,17 @@
         "simple-bus/doctrine-orm-bridge": "Bridge for using command buses and event buses with Doctrine ORM",
         "simple-bus/symfony-bridge": "Bridge for using command buses and event buses with Symfony"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4" : { "SimpleBus\\Event\\" : "src" }
     },
     "autoload-dev": {
         "psr-4" : { "SimpleBus\\Event\\Tests\\" : "tests" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0-dev"
+        }
     }
 }
