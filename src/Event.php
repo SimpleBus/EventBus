@@ -2,10 +2,8 @@
 
 namespace SimpleBus\Event;
 
-interface Event
+use SimpleBus\Message\Message;
+
+interface Event extends Message
 {
-    /**
-     * @return string
-     */
-    public function name();
 }
