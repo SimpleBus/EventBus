@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a601198dd9f4cbf2974c0ef68bb7393a",
+    "hash": "5ccd6bf3c63c867e4a6ddf95572d50c5",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -61,12 +61,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SimpleBus/MessageBus.git",
-                "reference": "762b09832ca215b6fb9596e7521e36f0ef68d934"
+                "reference": "fe7000bdea6657f9a1c1de616a32a66c6f836ba6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SimpleBus/MessageBus/zipball/762b09832ca215b6fb9596e7521e36f0ef68d934",
-                "reference": "762b09832ca215b6fb9596e7521e36f0ef68d934",
+                "url": "https://api.github.com/repos/SimpleBus/MessageBus/zipball/fe7000bdea6657f9a1c1de616a32a66c6f836ba6",
+                "reference": "fe7000bdea6657f9a1c1de616a32a66c6f836ba6",
                 "shasum": ""
             },
             "require": {
@@ -77,6 +77,11 @@
                 "phpunit/phpunit": "~4.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "SimpleBus\\Message\\": "src"
@@ -101,7 +106,7 @@
                 "message",
                 "message bus"
             ],
-            "time": "2015-01-12 15:24:11"
+            "time": "2015-01-12 15:38:16"
         }
     ],
     "packages-dev": [
@@ -898,11 +903,11 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "simple-bus/message-bus": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.4"

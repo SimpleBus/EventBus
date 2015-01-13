@@ -22,7 +22,6 @@
     },
     "suggest": {
         "simple-bus/command-bus": "Simple command bus implementation",
-        "simple-bus/command-event-bridge": "Bridge for using both command buses and event buses",
         "simple-bus/doctrine-orm-bridge": "Bridge for using command buses and event buses with Doctrine ORM",
         "simple-bus/symfony-bridge": "Bridge for using command buses and event buses with Symfony"
     },
